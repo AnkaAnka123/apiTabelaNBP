@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <title>tabela kursów walut NBP</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="heading">
+        <h5>Tabela średnich kusów walut obcych wg. NBP z dnia <span id="effectiveDate"></span></h5>
+      </div>
+        <button class="button-primary" id="viev-table">Wyświetl tabelę</button>
+        <!-- tabela -->
+
+        <table class="u-full-width ">
+            <thead>
+              <tr>
+                <th>NAZWA WALUTY</th>
+                <th>KOD WALUTY</th>
+                <th>KURS ŚREDNI</th>
+              </tr>
+            </thead>
+            <tbody id="currency-table">
+             
+            </tbody>
+          </table>
+      
+    </div>
+  </div>
+  
+
+  <script src="app.js"></script>
+</body>
+</html>
